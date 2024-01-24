@@ -1,5 +1,6 @@
+---
 ################################################################################
-# Copyright 2021 The Magma Authors.
+# Copyright 2022 The Magma Authors.
 
 # This source code is licensed under the BSD-style license found in the
 # LICENSE file in the root directory of this source tree.
@@ -12,9 +13,9 @@
 ################################################################################
 
 magma_pkgrepo_proto: https
-magma_pkgrepo_host: linuxfoundation.jfrog.io/artifactory/magma-packages
+magma_pkgrepo_host: linuxfoundation.jfrog.io/artifactory/magma-packages-test
 magma_pkgrepo_path: ""
-magma_pkgrepo_dist: focal-1.7.0
+magma_pkgrepo_dist: focal-ci
 magma_pkgrepo_component: main
 magma_pkgrepo_name: "magma"
 
